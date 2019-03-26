@@ -33,6 +33,9 @@ public class CustomerController {
 	public ModelAndView customerList() {
 		try
 		{
+			// ************************************************
+			// Response Time problem
+			// ************************************************
 		   Thread.sleep(5000);
 		}
 		catch(InterruptedException ex)
