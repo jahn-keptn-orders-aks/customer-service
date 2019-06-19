@@ -2,7 +2,7 @@
 
 export GITHUB_ACCOUNT=$1
 export VERSION_TAG=$2
-export IMAGE=$GITHUB_ACCOUNT/customer-service:$VERSION_TAG
+export IMAGE=$GITHUB_ACCOUNT/keptn-orders-customer-service:$VERSION_TAG
 
 clear
 if [ $# -lt 2 ]
